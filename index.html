@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta property="og:title" content="박하영 - 프로필 링크" />
+		<meta property="og:description" content="나는야 Fornt-End Developer! 👨‍💻" />
+		<meta property="og:image" content="bear.jpg" />
+		<script
+			type="text/javascript"
+			src="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/free/sparta.js"
+		></script>
+		<title>박하영 - 프로필 링크</title>
+		<style>
+			@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+			* {
+				font-family: 'Pretendard', serif;
+			}
+			body {
+				background-color: #44398a;
+			}
+			.wrap {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+
+				margin: 30px auto 0 auto;
+				width: 300px;
+			}
+			.profile {
+				width: 100px;
+				height: 100px;
+
+				border: 2px solid white;
+				border-radius: 100%;
+
+				background-image: url('bear.jpg');
+				background-position: center;
+				background-size: cover;
+			}
+			.main {
+				margin-top: 20px;
+				color: white;
+				font-size: 20px;
+				margin-bottom: 10px;
+			}
+			.sub {
+				margin-top: 0px;
+				margin-bottom: 30px;
+				color: white;
+				font-size: 14px;
+			}
+			.wrap > a {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+
+				width: 300px;
+				height: 50px;
+
+				margin-bottom: 10px;
+
+				background-color: white;
+
+				border-radius: 8px;
+
+				font-size: 14px;
+				font-weight: bold;
+				color: #44398a;
+				text-decoration: none;
+
+				box-shadow: 3px 3px 5px 0px black;
+			}
+
+			.wrap > a:hover {
+				background-color: #f2f2f2;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wrap">
+			<div class="profile"></div>
+			<h1 class="main">박하영</h1>
+			<p class="sub">안녕하세요. 예비 프론트엔드 개발자 박하영입니다! 😊</p>
+			<a target="_blank" href="https://github.com/happai079">GitHub</a>
+			<a target="_blank" href="https://velog.io/@happai079">Velog</a>
+			<a target="_blank" href="https://www.instagram.com/ha_0v0/">인스타그램</a>
+		</div>
+	</body>
+</html>
